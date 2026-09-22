@@ -1,0 +1,7 @@
+billing_origin_product,resource,total_dbus,usage_records,first_day,last_day
+DLT,648da6b7-4893-4940-b396-5e2cbf1a3a0e,1787.81,2276,2026-09-09,2026-09-22
+APPS,mail2quote,160.99,323,2026-09-09,2026-09-22
+SQL,<genie-warehouse-id>,150.12,18,2026-09-09,2026-09-19
+AI_FUNCTIONS,databricks-ai-extract,2.94,4,2026-09-09,2026-09-17
+AI_FUNCTIONS,databricks-ai-parse-document,0.98,12,2026-09-09,2026-09-17
+

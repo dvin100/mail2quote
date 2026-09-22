@@ -23,6 +23,7 @@ was pulled directly from the workspace, not from documentation or a validator pa
 | 3 | *"No visible evidence of the synthetic data generation logic … unclear whether the underlying risk and claims data is shaped with realistic correlations."* | [`03_synthetic_data_realism_evidence.md`](03_synthetic_data_realism_evidence.md) |
 | 4 | *"No readable execution output: no pipeline run logs, model prediction samples, or Genie query/response text."* | [`04_execution_logs_and_models.md`](04_execution_logs_and_models.md) + [`logs/`](logs/) |
 | 5 | *"The data-generation or pipeline notebook code was not part of what could be reviewed directly."* | [`NOTEBOOKS.md`](NOTEBOOKS.md) |
+| 6 | Independent platform-recorded proof (DBU consumption, pipeline run timeline, app status). | [`05_system_tables_evidence.md`](05_system_tables_evidence.md) |
 
 ## Files in this pack
 
