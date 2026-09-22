@@ -1,0 +1,12 @@
+stage,ord,rows
+pipe_email_received,1,87
+pipe_email_parsed,2,87
+pipe_email_enriched,3,87
+pipe_quote_features,4,87
+pipe_quote_risk_scoring,5,87
+pipe_quote_review,6,87
+pipe_quote_creation,7,73
+pipe_pdf_created,8,73
+pipe_response_email,9,85
+pipe_completed,10,85
+

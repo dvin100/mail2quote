@@ -1,0 +1,5 @@
+claims_bucket,n_orgs,avg_risk_score,avg_loss_ratio,avg_claims_paid,avg_indicated_premium
+0 claims,6435,17.7,0.0,0.0,1076638.0
+1-2 claims,2521,36.3,3.593,163815.0,1064288.0
+3-5 claims,1044,50.1,9.563,393373.0,1187963.0
+

@@ -15,7 +15,7 @@ Set these variables before running any commands:
 
 ```bash
 export DATABRICKS_CONFIG_PROFILE=EMAIL_QUOTE
-export WORKSPACE_HOST="https://dbc-d0045e0a-a058.cloud.databricks.com"
+export WORKSPACE_HOST="https://<expired-workspace-host>"
 export CATALOG="dvin100_email_to_quote"
 export SCHEMA="email_to_quote"
 export LAKEBASE_PROJECT="emai2quote"
@@ -120,7 +120,7 @@ databricks postgres get-project projects/$LAKEBASE_PROJECT
 # Note the endpoint host from: projects/$LAKEBASE_PROJECT/branches/production/endpoints/primary
 ```
 
-Record the Lakebase endpoint host (e.g., `ep-icy-pond-d8d33jwn.database.us-east-2.cloud.databricks.com`) and update these files:
+Record the Lakebase endpoint host (e.g., `<lakebase-endpoint-host>`) and update these files:
 - `app/app.yaml` — `LAKEBASE_HOST` env var
 - `app/backend/main.py` — default host fallback
 - `notebooks/sync_underwriter.py` — default host
