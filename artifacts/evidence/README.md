@@ -21,6 +21,8 @@ was pulled directly from the workspace, not from documentation or a validator pa
 | 1 | *"No notebook output, run log, query result, or captured app response shows the pipeline actually processing a request end to end."* | [`01_end_to_end_execution_evidence.md`](01_end_to_end_execution_evidence.md) |
 | 2 | *"Pipeline, governance, and serving layers were only confirmed through the validator's pattern match; actual pipeline logic, governance rules, and Lakebase schema were not visible."* | [`02_pipeline_governance_lakebase_evidence.md`](02_pipeline_governance_lakebase_evidence.md) |
 | 3 | *"No visible evidence of the synthetic data generation logic … unclear whether the underlying risk and claims data is shaped with realistic correlations."* | [`03_synthetic_data_realism_evidence.md`](03_synthetic_data_realism_evidence.md) |
+| 4 | *"No readable execution output: no pipeline run logs, model prediction samples, or Genie query/response text."* | [`04_execution_logs_and_models.md`](04_execution_logs_and_models.md) + [`logs/`](logs/) |
+| 5 | *"The data-generation or pipeline notebook code was not part of what could be reviewed directly."* | [`NOTEBOOKS.md`](NOTEBOOKS.md) |
 
 ## Files in this pack
 

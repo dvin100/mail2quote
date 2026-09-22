@@ -1,0 +1,46 @@
+{
+  "f44f4997-71c4-4e63-9557-e66c0d0f841b": {
+    "ground_truth": {
+      "org_id": "f44f4997-71c4-4e63-9557-e66c0d0f841b",
+      "risk_category": "transportation",
+      "num_claims": "0",
+      "total_claims_paid": "0.0",
+      "risk_score": "0.0",
+      "has_claim": "0"
+    },
+    "model_prediction": {
+      "predictions": [
+        {
+          "claim_prediction": 0.04122154267368418,
+          "predicted_loss_ratio": 0.04122154267368418,
+          "pricing_action": "competitive_rate",
+          "risk_band": "Low",
+          "risk_score": 0.04122154267368418,
+          "underwriting_action": "standard_review"
+        }
+      ]
+    }
+  },
+  "4cbc7278-ed86-4f08-a912-2e602c632ce7": {
+    "ground_truth": {
+      "org_id": "4cbc7278-ed86-4f08-a912-2e602c632ce7",
+      "risk_category": "office",
+      "num_claims": "5",
+      "total_claims_paid": "1902035.04",
+      "risk_score": "73.34",
+      "has_claim": "1"
+    },
+    "model_prediction": {
+      "predictions": [
+        {
+          "claim_prediction": 11.97952578725028,
+          "predicted_loss_ratio": 5,
+          "pricing_action": "decline_or_refer",
+          "risk_band": "Low",
+          "risk_score": 11.97952578725028,
+          "underwriting_action": "standard_review"
+        }
+      ]
+    }
+  }
+}

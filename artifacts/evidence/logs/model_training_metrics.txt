@@ -1,0 +1,26 @@
+Model training metrics — insurance_risk_scorer (LightGBM, AutoML/Optuna)
+Registered model: dvin100_demos_catalog.email_to_quote.insurance_risk_scorer  (version 1)
+Source: MLflow experiment 309209967865803  |  captured 2026-09-22
+Feature table: dvin100_demos_catalog.email_to_quote.risk_features (10,000 orgs, 117 cols)
+================================================================================
+
+RUN claim_classifier_lgbm  (classification, target = has_claim)
+   test_f1_score:   1.0
+   test_precision:  1.0
+   test_recall:     1.0
+   cv_f1_score:     1.0
+
+RUN loss_ratio_lgbm  (regression, target = loss_ratio)
+   test_r2:    0.9603
+   test_rmse:  1.484
+   test_mae:   0.2944
+
+RUN risk_score_lgbm  (regression, target = risk_score; claim-derived features EXCLUDED to avoid leakage)
+   test_r2:    0.244
+   test_rmse:  11.9819
+   test_mae:   10.2908
+
+Note: risk_score regression is intentionally harder (R2=0.24) because claim-history
+features are excluded to prevent leakage — the model predicts risk from firmographics,
+property, fleet, cyber, and financial signals only. Loss-ratio regression (R2=0.96) and
+claim classification (F1=1.0) use the full feature set.

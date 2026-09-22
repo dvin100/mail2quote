@@ -1,0 +1,122 @@
+Pipeline run log — Underwriter Ingestion Pipeline (id 648da6b7-4893-4940-b396-5e2cbf1a3a0e)
+Source: GET /api/2.0/pipelines/{id}/events  |  captured 2026-09-22  |  workspace: <workspace-host>
+Catalog/schema: dvin100_demos_catalog.email_to_quote
+====================================================================================================
+2026-09-10T03:00:26.231Z [INFO ] flow_definition    Flow `dvin100_demos_catalog`.`email_to_quote`.`pipe_quote_features` defined as APPEND.
+2026-09-10T03:00:26.237Z [INFO ] flow_definition    Flow `dvin100_demos_catalog`.`email_to_quote`.`pipe_quote_risk_scoring` defined as APPEND.
+2026-09-10T03:00:26.241Z [INFO ] flow_definition    Flow `dvin100_demos_catalog`.`email_to_quote`.`pipe_quote_review` defined as APPEND.
+2026-09-10T03:00:26.250Z [INFO ] flow_definition    Flow `dvin100_demos_catalog`.`email_to_quote`.`pipe_quote_creation` defined as APPEND.
+2026-09-10T03:00:26.260Z [INFO ] flow_definition    Flow `dvin100_demos_catalog`.`email_to_quote`.`uw_approved_to_quote_creation` defined as APPEND.
+2026-09-10T03:00:26.265Z [INFO ] flow_definition    Flow `dvin100_demos_catalog`.`email_to_quote`.`pipe_pdf_created` defined as APPEND.
+2026-09-10T03:00:26.268Z [INFO ] flow_definition    Flow `dvin100_demos_catalog`.`email_to_quote`.`uw_declined_info_to_completed` defined as APPEND.
+2026-09-10T03:00:26.272Z [INFO ] flow_definition    Flow `dvin100_demos_catalog`.`email_to_quote`.`pipe_completed` defined as APPEND.
+2026-09-10T03:00:26.275Z [INFO ] flow_definition    Flow `dvin100_demos_catalog`.`email_to_quote`.`pipe_response_email` defined as APPEND.
+2026-09-10T03:00:26.296Z [INFO ] dataset_definition Dataset `dvin100_demos_catalog`.`email_to_quote`.`pipe_email_enriched` defined as STREAMING_TABLE.
+2026-09-10T03:00:26.318Z [INFO ] dataset_definition Dataset `dvin100_demos_catalog`.`email_to_quote`.`pipe_email_received` defined as STREAMING_TABLE.
+2026-09-10T03:00:26.328Z [INFO ] dataset_definition Dataset `dvin100_demos_catalog`.`email_to_quote`.`pipe_completed` defined as STREAMING_TABLE.
+2026-09-10T03:00:26.337Z [INFO ] dataset_definition Dataset `dvin100_demos_catalog`.`email_to_quote`.`pipe_pdf_created` defined as STREAMING_TABLE.
+2026-09-10T03:00:26.347Z [INFO ] dataset_definition Dataset `dvin100_demos_catalog`.`email_to_quote`.`pipe_quote_risk_scoring` defined as STREAMING_TABLE.
+2026-09-10T03:00:26.357Z [INFO ] dataset_definition Dataset `dvin100_demos_catalog`.`email_to_quote`.`pipe_quote_creation` defined as STREAMING_TABLE.
+2026-09-10T03:00:26.367Z [INFO ] dataset_definition Dataset `dvin100_demos_catalog`.`email_to_quote`.`pipe_quote_review` defined as STREAMING_TABLE.
+2026-09-10T03:00:26.378Z [INFO ] dataset_definition Dataset `dvin100_demos_catalog`.`email_to_quote`.`pipe_quote_features` defined as STREAMING_TABLE.
+2026-09-10T03:00:26.389Z [INFO ] dataset_definition Dataset `dvin100_demos_catalog`.`email_to_quote`.`pipe_response_email` defined as STREAMING_TABLE.
+2026-09-10T03:00:26.399Z [INFO ] dataset_definition Dataset `dvin100_demos_catalog`.`email_to_quote`.`pipe_email_parsed` defined as STREAMING_TABLE.
+2026-09-10T03:00:26.490Z [INFO ] graph_created      Dataflow graph successfully loaded.
+2026-09-10T03:00:26.505Z [INFO ] update_progress    Update e3830c is RUNNING.
+2026-09-10T03:00:31.949Z [WARN ] advisory           By running Auto Loader (Flow Name: dvin100_demos_catalog.email_to_quote.pipe_email_received) with directory listing in continuous mode, you are missing out on optimized file discovery and processing. This can increase ingestion costs. Databricks recommends enabling file events instead.
+2026-09-10T22:23:38.782Z [INFO ] create_update      Update 695fcb started by SERVICE_UPGRADE.
+2026-09-10T22:23:41.149Z [INFO ] update_progress    Update 695fcb is WAITING_FOR_RESOURCES.
+2026-09-10T22:23:48.687Z [INFO ] runtime_details    Resolved runtime environment details for update 695fcb.
+2026-09-10T22:23:57.571Z [INFO ] update_progress    Update e3830c is STOPPING.
+2026-09-10T22:23:57.854Z [INFO ] update_progress    Update e3830c is CANCELED.
+2026-09-10T22:24:02.333Z [INFO ] update_progress    Update 695fcb is INITIALIZING.
+2026-09-10T22:24:48.213Z [INFO ] update_progress    Update 695fcb is SETTING_UP_TABLES.
+2026-09-10T22:24:50.224Z [INFO ] flow_definition    Flow `dvin100_demos_catalog`.`email_to_quote`.`pipe_email_received` defined as APPEND.
+2026-09-10T22:24:50.265Z [INFO ] flow_definition    Flow `dvin100_demos_catalog`.`email_to_quote`.`pipe_email_parsed` defined as APPEND.
+2026-09-10T22:24:50.279Z [INFO ] flow_definition    Flow `dvin100_demos_catalog`.`email_to_quote`.`pipe_email_enriched` defined as APPEND.
+2026-09-10T22:24:50.289Z [INFO ] flow_definition    Flow `dvin100_demos_catalog`.`email_to_quote`.`pipe_quote_features` defined as APPEND.
+2026-09-10T22:24:50.295Z [INFO ] flow_definition    Flow `dvin100_demos_catalog`.`email_to_quote`.`pipe_quote_risk_scoring` defined as APPEND.
+2026-09-10T22:24:50.301Z [INFO ] flow_definition    Flow `dvin100_demos_catalog`.`email_to_quote`.`pipe_quote_review` defined as APPEND.
+2026-09-10T22:24:50.311Z [INFO ] flow_definition    Flow `dvin100_demos_catalog`.`email_to_quote`.`pipe_quote_creation` defined as APPEND.
+2026-09-10T22:24:50.320Z [INFO ] flow_definition    Flow `dvin100_demos_catalog`.`email_to_quote`.`uw_approved_to_quote_creation` defined as APPEND.
+2026-09-10T22:24:50.326Z [INFO ] flow_definition    Flow `dvin100_demos_catalog`.`email_to_quote`.`pipe_pdf_created` defined as APPEND.
+2026-09-10T22:24:50.330Z [INFO ] flow_definition    Flow `dvin100_demos_catalog`.`email_to_quote`.`uw_declined_info_to_completed` defined as APPEND.
+2026-09-10T22:24:50.334Z [INFO ] flow_definition    Flow `dvin100_demos_catalog`.`email_to_quote`.`pipe_completed` defined as APPEND.
+2026-09-10T22:24:50.338Z [INFO ] flow_definition    Flow `dvin100_demos_catalog`.`email_to_quote`.`pipe_response_email` defined as APPEND.
+2026-09-10T22:24:50.359Z [INFO ] dataset_definition Dataset `dvin100_demos_catalog`.`email_to_quote`.`pipe_email_enriched` defined as STREAMING_TABLE.
+2026-09-10T22:24:50.379Z [INFO ] dataset_definition Dataset `dvin100_demos_catalog`.`email_to_quote`.`pipe_email_received` defined as STREAMING_TABLE.
+2026-09-10T22:24:50.388Z [INFO ] dataset_definition Dataset `dvin100_demos_catalog`.`email_to_quote`.`pipe_completed` defined as STREAMING_TABLE.
+2026-09-10T22:24:50.397Z [INFO ] dataset_definition Dataset `dvin100_demos_catalog`.`email_to_quote`.`pipe_pdf_created` defined as STREAMING_TABLE.
+2026-09-10T22:24:50.406Z [INFO ] dataset_definition Dataset `dvin100_demos_catalog`.`email_to_quote`.`pipe_quote_risk_scoring` defined as STREAMING_TABLE.
+2026-09-10T22:24:50.415Z [INFO ] dataset_definition Dataset `dvin100_demos_catalog`.`email_to_quote`.`pipe_quote_creation` defined as STREAMING_TABLE.
+2026-09-10T22:24:50.425Z [INFO ] dataset_definition Dataset `dvin100_demos_catalog`.`email_to_quote`.`pipe_quote_review` defined as STREAMING_TABLE.
+2026-09-10T22:24:50.435Z [INFO ] dataset_definition Dataset `dvin100_demos_catalog`.`email_to_quote`.`pipe_quote_features` defined as STREAMING_TABLE.
+2026-09-10T22:24:50.445Z [INFO ] dataset_definition Dataset `dvin100_demos_catalog`.`email_to_quote`.`pipe_response_email` defined as STREAMING_TABLE.
+2026-09-10T22:24:50.454Z [INFO ] dataset_definition Dataset `dvin100_demos_catalog`.`email_to_quote`.`pipe_email_parsed` defined as STREAMING_TABLE.
+2026-09-10T22:24:50.546Z [INFO ] graph_created      Dataflow graph successfully loaded.
+2026-09-10T22:24:50.560Z [INFO ] update_progress    Update 695fcb is RUNNING.
+2026-09-10T22:24:55.991Z [WARN ] advisory           By running Auto Loader (Flow Name: dvin100_demos_catalog.email_to_quote.pipe_email_received) with directory listing in continuous mode, you are missing out on optimized file discovery and processing. This can increase ingestion costs. Databricks recommends enabling file events instead.
+2026-09-18T02:50:12.941Z [INFO ] create_update      Update 51c321 started by INFRASTRUCTURE_MAINTENANCE.
+2026-09-18T02:50:16.477Z [INFO ] update_progress    Update 51c321 is WAITING_FOR_RESOURCES.
+2026-09-18T02:50:21.684Z [INFO ] runtime_details    Resolved runtime environment details for update 51c321.
+2026-09-18T02:50:31.834Z [INFO ] update_progress    Update 695fcb is STOPPING.
+2026-09-18T02:50:32.414Z [INFO ] update_progress    Update 695fcb is CANCELED.
+2026-09-18T02:50:37.922Z [INFO ] update_progress    Update 51c321 is INITIALIZING.
+2026-09-18T02:51:27.031Z [INFO ] update_progress    Update 51c321 is SETTING_UP_TABLES.
+2026-09-18T02:51:29.254Z [INFO ] flow_definition    Flow `dvin100_demos_catalog`.`email_to_quote`.`pipe_email_received` defined as APPEND.
+2026-09-18T02:51:29.299Z [INFO ] flow_definition    Flow `dvin100_demos_catalog`.`email_to_quote`.`pipe_email_parsed` defined as APPEND.
+2026-09-18T02:51:29.312Z [INFO ] flow_definition    Flow `dvin100_demos_catalog`.`email_to_quote`.`pipe_email_enriched` defined as APPEND.
+2026-09-18T02:51:29.317Z [INFO ] flow_definition    Flow `dvin100_demos_catalog`.`email_to_quote`.`pipe_quote_features` defined as APPEND.
+2026-09-18T02:51:29.323Z [INFO ] flow_definition    Flow `dvin100_demos_catalog`.`email_to_quote`.`pipe_quote_risk_scoring` defined as APPEND.
+2026-09-18T02:51:29.327Z [INFO ] flow_definition    Flow `dvin100_demos_catalog`.`email_to_quote`.`pipe_quote_review` defined as APPEND.
+2026-09-18T02:51:29.336Z [INFO ] flow_definition    Flow `dvin100_demos_catalog`.`email_to_quote`.`pipe_quote_creation` defined as APPEND.
+2026-09-18T02:51:29.346Z [INFO ] flow_definition    Flow `dvin100_demos_catalog`.`email_to_quote`.`uw_approved_to_quote_creation` defined as APPEND.
+2026-09-18T02:51:29.351Z [INFO ] flow_definition    Flow `dvin100_demos_catalog`.`email_to_quote`.`pipe_pdf_created` defined as APPEND.
+2026-09-18T02:51:29.354Z [INFO ] flow_definition    Flow `dvin100_demos_catalog`.`email_to_quote`.`uw_declined_info_to_completed` defined as APPEND.
+2026-09-18T02:51:29.358Z [INFO ] flow_definition    Flow `dvin100_demos_catalog`.`email_to_quote`.`pipe_completed` defined as APPEND.
+2026-09-18T02:51:29.360Z [INFO ] flow_definition    Flow `dvin100_demos_catalog`.`email_to_quote`.`pipe_response_email` defined as APPEND.
+2026-09-18T02:51:29.379Z [INFO ] dataset_definition Dataset `dvin100_demos_catalog`.`email_to_quote`.`pipe_email_enriched` defined as STREAMING_TABLE.
+2026-09-18T02:51:29.398Z [INFO ] dataset_definition Dataset `dvin100_demos_catalog`.`email_to_quote`.`pipe_email_received` defined as STREAMING_TABLE.
+2026-09-18T02:51:29.406Z [INFO ] dataset_definition Dataset `dvin100_demos_catalog`.`email_to_quote`.`pipe_completed` defined as STREAMING_TABLE.
+2026-09-18T02:51:29.415Z [INFO ] dataset_definition Dataset `dvin100_demos_catalog`.`email_to_quote`.`pipe_pdf_created` defined as STREAMING_TABLE.
+2026-09-18T02:51:29.423Z [INFO ] dataset_definition Dataset `dvin100_demos_catalog`.`email_to_quote`.`pipe_quote_risk_scoring` defined as STREAMING_TABLE.
+2026-09-18T02:51:29.431Z [INFO ] dataset_definition Dataset `dvin100_demos_catalog`.`email_to_quote`.`pipe_quote_creation` defined as STREAMING_TABLE.
+2026-09-18T02:51:29.440Z [INFO ] dataset_definition Dataset `dvin100_demos_catalog`.`email_to_quote`.`pipe_quote_review` defined as STREAMING_TABLE.
+2026-09-18T02:51:29.447Z [INFO ] dataset_definition Dataset `dvin100_demos_catalog`.`email_to_quote`.`pipe_quote_features` defined as STREAMING_TABLE.
+2026-09-18T02:51:29.455Z [INFO ] dataset_definition Dataset `dvin100_demos_catalog`.`email_to_quote`.`pipe_response_email` defined as STREAMING_TABLE.
+2026-09-18T02:51:29.463Z [INFO ] dataset_definition Dataset `dvin100_demos_catalog`.`email_to_quote`.`pipe_email_parsed` defined as STREAMING_TABLE.
+2026-09-18T02:51:29.553Z [INFO ] graph_created      Dataflow graph successfully loaded.
+2026-09-18T02:51:29.568Z [INFO ] update_progress    Update 51c321 is RUNNING.
+2026-09-18T02:51:34.705Z [WARN ] advisory           By running Auto Loader (Flow Name: dvin100_demos_catalog.email_to_quote.pipe_email_received) with directory listing in continuous mode, you are missing out on optimized file discovery and processing. This can increase ingestion costs. Databricks recommends enabling file events instead.
+2026-09-21T21:01:26.911Z [INFO ] create_update      Update fc1c54 started by SERVICE_UPGRADE.
+2026-09-21T21:01:29.318Z [INFO ] update_progress    Update fc1c54 is WAITING_FOR_RESOURCES.
+2026-09-21T21:01:34.581Z [INFO ] runtime_details    Resolved runtime environment details for update fc1c54.
+2026-09-21T21:01:45.822Z [INFO ] update_progress    Update 51c321 is STOPPING.
+2026-09-21T21:01:46.596Z [INFO ] update_progress    Update 51c321 is CANCELED.
+2026-09-21T21:01:54.877Z [INFO ] update_progress    Update fc1c54 is INITIALIZING.
+2026-09-21T21:02:53.648Z [INFO ] update_progress    Update fc1c54 is SETTING_UP_TABLES.
+2026-09-21T21:02:56.720Z [INFO ] flow_definition    Flow `dvin100_demos_catalog`.`email_to_quote`.`pipe_email_received` defined as APPEND.
+2026-09-21T21:02:56.821Z [INFO ] flow_definition    Flow `dvin100_demos_catalog`.`email_to_quote`.`pipe_email_parsed` defined as APPEND.
+2026-09-21T21:02:56.837Z [INFO ] flow_definition    Flow `dvin100_demos_catalog`.`email_to_quote`.`pipe_email_enriched` defined as APPEND.
+2026-09-21T21:02:56.852Z [INFO ] flow_definition    Flow `dvin100_demos_catalog`.`email_to_quote`.`pipe_quote_features` defined as APPEND.
+2026-09-21T21:02:56.859Z [INFO ] flow_definition    Flow `dvin100_demos_catalog`.`email_to_quote`.`pipe_quote_risk_scoring` defined as APPEND.
+2026-09-21T21:02:56.865Z [INFO ] flow_definition    Flow `dvin100_demos_catalog`.`email_to_quote`.`pipe_quote_review` defined as APPEND.
+2026-09-21T21:02:56.877Z [INFO ] flow_definition    Flow `dvin100_demos_catalog`.`email_to_quote`.`pipe_quote_creation` defined as APPEND.
+2026-09-21T21:02:56.887Z [INFO ] flow_definition    Flow `dvin100_demos_catalog`.`email_to_quote`.`uw_approved_to_quote_creation` defined as APPEND.
+2026-09-21T21:02:56.894Z [INFO ] flow_definition    Flow `dvin100_demos_catalog`.`email_to_quote`.`pipe_pdf_created` defined as APPEND.
+2026-09-21T21:02:56.899Z [INFO ] flow_definition    Flow `dvin100_demos_catalog`.`email_to_quote`.`uw_declined_info_to_completed` defined as APPEND.
+2026-09-21T21:02:56.904Z [INFO ] flow_definition    Flow `dvin100_demos_catalog`.`email_to_quote`.`pipe_completed` defined as APPEND.
+2026-09-21T21:02:56.910Z [INFO ] flow_definition    Flow `dvin100_demos_catalog`.`email_to_quote`.`pipe_response_email` defined as APPEND.
+2026-09-21T21:02:56.941Z [INFO ] dataset_definition Dataset `dvin100_demos_catalog`.`email_to_quote`.`pipe_email_enriched` defined as STREAMING_TABLE.
+2026-09-21T21:02:56.984Z [INFO ] dataset_definition Dataset `dvin100_demos_catalog`.`email_to_quote`.`pipe_email_received` defined as STREAMING_TABLE.
+2026-09-21T21:02:56.998Z [INFO ] dataset_definition Dataset `dvin100_demos_catalog`.`email_to_quote`.`pipe_completed` defined as STREAMING_TABLE.
+2026-09-21T21:02:57.012Z [INFO ] dataset_definition Dataset `dvin100_demos_catalog`.`email_to_quote`.`pipe_pdf_created` defined as STREAMING_TABLE.
+2026-09-21T21:02:57.025Z [INFO ] dataset_definition Dataset `dvin100_demos_catalog`.`email_to_quote`.`pipe_quote_risk_scoring` defined as STREAMING_TABLE.
+2026-09-21T21:02:57.039Z [INFO ] dataset_definition Dataset `dvin100_demos_catalog`.`email_to_quote`.`pipe_quote_creation` defined as STREAMING_TABLE.
+2026-09-21T21:02:57.053Z [INFO ] dataset_definition Dataset `dvin100_demos_catalog`.`email_to_quote`.`pipe_quote_review` defined as STREAMING_TABLE.
+2026-09-21T21:02:57.067Z [INFO ] dataset_definition Dataset `dvin100_demos_catalog`.`email_to_quote`.`pipe_quote_features` defined as STREAMING_TABLE.
+2026-09-21T21:02:57.081Z [INFO ] dataset_definition Dataset `dvin100_demos_catalog`.`email_to_quote`.`pipe_response_email` defined as STREAMING_TABLE.
+2026-09-21T21:02:57.095Z [INFO ] dataset_definition Dataset `dvin100_demos_catalog`.`email_to_quote`.`pipe_email_parsed` defined as STREAMING_TABLE.
+2026-09-21T21:02:57.206Z [INFO ] graph_created      Dataflow graph successfully loaded.
+2026-09-21T21:02:57.222Z [INFO ] update_progress    Update fc1c54 is RUNNING.
+2026-09-21T21:03:04.208Z [WARN ] advisory           By running Auto Loader (Flow Name: dvin100_demos_catalog.email_to_quote.pipe_email_received) with directory listing in continuous mode, you are missing out on optimized file discovery and processing. This can increase ingestion costs. Databricks recommends enabling file events instead.
