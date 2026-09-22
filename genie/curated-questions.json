@@ -1,0 +1,52 @@
+{
+  "curated_questions": [
+    {
+      "answer_text": "",
+      "conversation_type": "NORMAL",
+      "created_by_user_id": 2181634057780207,
+      "created_timestamp": 1790075609883,
+      "curated_question_id": "01f1b676a3fc1acf82b888644e739816",
+      "data_room_id": "01f1b67699a5152eb9d9e54d15adbc79",
+      "eval_note": "",
+      "id": "01f1b676a3fc1acf82b888644e739816",
+      "is_deprecated": false,
+      "last_updated_by_user_id": 2181634057780207,
+      "last_updated_timestamp": 1790075609883,
+      "question_text": "Distribution of contract_type in contracts table",
+      "question_type": "SAMPLE_QUESTION",
+      "space_id": "01f1b67699a5152eb9d9e54d15adbc79"
+    },
+    {
+      "answer_text": "",
+      "conversation_type": "NORMAL",
+      "created_by_user_id": 2181634057780207,
+      "created_timestamp": 1790075608488,
+      "curated_question_id": "01f1b676a3271c64a37640004f542c9d",
+      "data_room_id": "01f1b67699a5152eb9d9e54d15adbc79",
+      "eval_note": "",
+      "id": "01f1b676a3271c64a37640004f542c9d",
+      "is_deprecated": false,
+      "last_updated_by_user_id": 2181634057780207,
+      "last_updated_timestamp": 1790075608488,
+      "question_text": "Monthly sum of total_revenue in financials table",
+      "question_type": "SAMPLE_QUESTION",
+      "space_id": "01f1b67699a5152eb9d9e54d15adbc79"
+    },
+    {
+      "answer_text": "",
+      "conversation_type": "NORMAL",
+      "created_by_user_id": 2181634057780207,
+      "created_timestamp": 1790075605464,
+      "curated_question_id": "01f1b676a15a15caa1e77849f0826fd4",
+      "data_room_id": "01f1b67699a5152eb9d9e54d15adbc79",
+      "eval_note": "",
+      "id": "01f1b676a15a15caa1e77849f0826fd4",
+      "is_deprecated": false,
+      "last_updated_by_user_id": 2181634057780207,
+      "last_updated_timestamp": 1790075605464,
+      "question_text": "What tables are there and how are they connected? Give me a short summary.",
+      "question_type": "SAMPLE_QUESTION",
+      "space_id": "01f1b67699a5152eb9d9e54d15adbc79"
+    }
+  ]
+}

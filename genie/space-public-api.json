@@ -1,0 +1,9 @@
+{
+  "create_time": "2026-09-22T11:13:12.534Z",
+  "description": "This Agent helps underwriting and operations teams analyze commercial insurance submissions from incoming emails through quote decisions, pricing, and response delivery.\n\n- **Capabilities:** Answer questions about quote pipeline volume and turnaround, submission details by business, industry, and risk category, requested coverages and limits, claims history, pricing and premium components, underwriting decisions and adjustments, and how applicant characteristics such as revenue, payroll, employees, locations, vehicles, contracts, property, and cyber controls relate to risk scores, loss ratios, and quote outcomes.\n\n- **Limitations:** Cannot analyze data outside the provided insurance submission and underwriting process, such as policy servicing after quote completion, external market conditions beyond included industry benchmarks, document contents beyond captured parsed fields and generated summaries, or real-time operational status beyond the latest recorded timestamps in the tables.",
+  "parent_path": "/Users/david.vincent@databricks.com",
+  "space_id": "01f1b67699a5152eb9d9e54d15adbc79",
+  "title": "Insurance Underwriting and Risk Analysis",
+  "update_time": "2026-09-22T11:18:03.327Z",
+  "warehouse_id": "a5017ad6932bc2d7"
+}
